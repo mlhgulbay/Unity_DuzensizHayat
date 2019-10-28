@@ -70,6 +70,8 @@ public class KarakterKontrolcusu : MonoBehaviour
         transform.rotation = Quaternion.Euler(0, 0, 0);
     }
 
+    /****************************************************************************************************************/
+
     // 3***1
     private void OnTriggerEnter(Collider other)
     {
@@ -78,6 +80,8 @@ public class KarakterKontrolcusu : MonoBehaviour
             karakterZiplasinMi = true;
         }
     }
+
+    /****************************************************************************************************************/
 
     // 3***1
     private void OnTriggerExit(Collider other)
@@ -157,6 +161,8 @@ public class KarakterKontrolcusu : MonoBehaviour
             rigidbody.AddForce(new Vector3(0, 5, 0), ForceMode.Impulse);
         }
     }
+
+    /****************************************************************************************************************/
 
     //1---7
     void KarakterHiziniGuncelle()  
