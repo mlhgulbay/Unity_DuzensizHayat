@@ -14,10 +14,10 @@ public class YolKontrolcusu : MonoBehaviour
     OyunBitirmeIslemi oyunBitirmeIslemi;
     KarakterKontrolcusu karakterKontrolcusu;
     GucYonetimi gucYonetimi;
-    public float geriSayim = 20.0F;
+    public float geriSayim = 10.0F;
     
 
-    int dusman_sayisi = 4;
+    int dusman_sayisi = 2;
     Text geriSayimText;
     
 
